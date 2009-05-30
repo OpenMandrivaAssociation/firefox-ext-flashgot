@@ -7,7 +7,7 @@
 
 Summary: Flashgot extension for firefox
 Name: firefox-ext-%{realname}
-Version: 1.1.8.6
+Version: 1.1.9
 Release: %mkrel 1
 License: GPLv2+
 Group: Networking/WWW

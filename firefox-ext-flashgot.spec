@@ -1,5 +1,5 @@
 %define ff_epoch 0
-%define ff_ver 3.0.10
+%define ff_ver 3.0.11
 %define realname flashgot
 
 %define _mozillapath %{_libdir}/firefox-%{ff_ver}
@@ -8,7 +8,7 @@
 Summary: Flashgot extension for firefox
 Name: firefox-ext-%{realname}
 Version: 1.1.9
-Release: %mkrel 1
+Release: %mkrel 2
 License: GPLv2+
 Group: Networking/WWW
 URL: http://flashgot.net

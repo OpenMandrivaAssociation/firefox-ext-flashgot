@@ -1,20 +1,17 @@
-%define ff_epoch 0
-%define ff_ver 3.0.13
 %define realname flashgot
 
-%define _mozillapath %{_libdir}/firefox-%{ff_ver}
-%define _mozillaextpath %{_mozillapath}/extensions
+%define _mozillaextpath %{firefox_mozillapath}/extensions
 
 Summary: Flashgot extension for firefox
 Name: firefox-ext-%{realname}
 Version: 1.2
-Release: %mkrel 1
+Release: %mkrel 2
 License: GPLv2+
 Group: Networking/WWW
 URL: http://flashgot.net
 Source: https://addons.mozilla.org/en-US/firefox/downloads/file/45660/flashgot-%version.xpi
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Requires: firefox = %{ff_epoch}:%{ff_ver}
+Requires: firefox = %{firefox_epoch}:%{firefox_version}
 Obsoletes: mozilla-firefox-ext-%{realname} < %{version}-%{release}
 Provides: mozilla-firefox-ext-%{realname} = %{version}-%{release}
 Suggests: kget curl gwget
@@ -50,5 +47,5 @@ rm -rf %{buildroot}
 
 %files
 %defattr(0644,root,root,0755)
-%dir %_mozillapath
+%dir %firefox_mozillapath
 %{_mozillaextpath}

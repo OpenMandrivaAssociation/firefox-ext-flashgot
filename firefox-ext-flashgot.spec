@@ -15,6 +15,7 @@ Requires: firefox = %{firefox_epoch}:%{firefox_version}
 Obsoletes: mozilla-firefox-ext-%{realname} < %{version}-%{release}
 Provides: mozilla-firefox-ext-%{realname} = %{version}-%{release}
 Suggests: kget curl gwget
+BuildRequires: firefox-devel
 
 %description
 FlashGot is the free Mozilla / Firefox / Flock / Thunderbird extension

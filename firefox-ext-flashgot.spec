@@ -2,6 +2,8 @@
 
 %define _mozillaextpath %{firefox_mozillapath}/extensions
 
+%define subrel 1
+
 Summary: Flashgot extension for firefox
 Name: firefox-ext-%{realname}
 Version: 1.2.1.26

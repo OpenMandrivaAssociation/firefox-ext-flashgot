@@ -1,11 +1,12 @@
 %define realname flashgot
+%define debug_package %{nil}
 
 %define _mozillaextpath %{firefox_mozillapath}/extensions
 
 Summary: Flashgot extension for firefox
 Name: firefox-ext-%{realname}
-Version: 1.2.1.26
-Release: %mkrel 3
+Version: 1.2.1.31
+Release: %mkrel 1
 License: GPLv2+
 Group: Networking/WWW
 URL: http://flashgot.net

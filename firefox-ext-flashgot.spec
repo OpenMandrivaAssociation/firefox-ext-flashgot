@@ -10,7 +10,7 @@ Release: %mkrel 1
 License: GPLv2+
 Group: Networking/WWW
 URL: http://flashgot.net
-Source: https://addons.mozilla.org/en-US/firefox/downloads/file/45660/flashgot-%version-fx+mz+sm+tb.xpi
+Source: http://releases.mozilla.org/pub/mozilla.org/addons/220/flashgot-%version-fx+mz+sm+tb.xpi
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires: firefox = %{firefox_epoch}:%{firefox_version}
 Obsoletes: mozilla-firefox-ext-%{realname} < %{version}-%{release}

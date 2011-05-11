@@ -1,11 +1,11 @@
 Summary: Flashgot extension for firefox
 Name: firefox-ext-flashgot
-Version: 1.2.9.3
+Version: 1.2.9.4
 Release: %mkrel 1
 License: GPLv2+
 Group: Networking/WWW
 URL: http://flashgot.net
-Source: http://releases.mozilla.org/pub/mozilla.org/addons/220/flashgot-%version-tb+fx+sm.xpi
+Source: https://secure.informaction.com/download/releases/flashgot-%{version}.xpi
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires: firefox >= %{firefox_epoch}:%{firefox_version}
 Obsoletes: mozilla-firefox-ext-flashgot < %{version}-%{release}

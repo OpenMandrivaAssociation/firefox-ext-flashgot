@@ -1,7 +1,7 @@
 Summary: Flashgot extension for firefox
 Name: firefox-ext-flashgot
 Version: 1.2.9.4
-Release: 2
+Release: 3
 License: GPLv2+
 Group: Networking/WWW
 URL: http://flashgot.net

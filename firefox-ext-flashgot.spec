@@ -4,7 +4,7 @@ Version: 1.2.9.4
 Release: 3
 License: GPLv2+
 Group: Networking/WWW
-URL: http://flashgot.net
+URL: https://flashgot.net
 Source: https://secure.informaction.com/download/releases/flashgot-%{version}.xpi
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires: firefox >= %{firefox_version}
